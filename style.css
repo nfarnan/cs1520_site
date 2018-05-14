@@ -1,0 +1,65 @@
+body {
+	background-color: #ffffff;
+	overflow-y:       scroll;
+}
+
+h1,h2,h3 {
+	text-align: center;
+}
+
+td {
+	padding: 0.5em;
+}
+
+div#content {
+	width:  50em;
+	margin: auto;
+}
+
+div.divider {
+	background-color: #bbbbbb;
+	width:            75%;
+	margin:           auto;
+	padding:          0.1em;
+}
+
+div.navcontainer {
+	background-color: #bbbbbb;
+	padding:          1em;
+}
+
+div.navbox {
+	width:  fit-content;
+	margin: 0 auto;
+}
+
+span.title {
+	font-weight: bold;
+	padding:     1em;
+}
+
+span.active {
+	background-color: #dddddd;
+}
+
+span.inactive {
+	background-color: #bbbbbb;
+}
+
+section.itembody {
+	background-color: #dddddd;
+	font-size:        smaller;
+	padding:          0.5em;
+}
+
+section.itembody table {
+	width: 100%;
+}
+
+div.code {
+	width:            95%;
+	margin:           auto;
+	background-color: #000000;
+	color:            #bbbbbb;
+	padding:          0.5em;
+}
